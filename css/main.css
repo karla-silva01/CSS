@@ -4,7 +4,7 @@
     padding: 0;
 }
 body > header {
-    background-color: #286ccb;
+    background-color: #76a6e8;
     padding: 16px 0;
     color: #f5f6fa;
 }
@@ -40,8 +40,8 @@ header li a {
 }
 
 .articles article img {
-    /*height: 180px;*/
     width: 100%;
+    height: 280px;
 }
 
 .articles article {
@@ -73,7 +73,7 @@ section h2,
     margin-top: 8px;
 }
 
-.articles article a:hover {
+.articles article a: :hover {
     text-decoration: underline;
 }
 
@@ -99,9 +99,25 @@ section h2 {
 }
 
 #economy {
-    background-color: #f6f4c6;
+    background-color: #f1f0cf;
 }
 
 #economy .articles article a {
-    background-color: #feaf3f;
+    background-color: #f2be76;
+}
+
+#entertainment {
+    background-color: rgb(246, 209, 174);
+}
+
+#entertainment .articles article a {
+    background-color: #efb295;
+}
+
+#science {
+    background-color: rgb(207, 237, 227);
+}
+
+#science .articles article a {
+    background-color: rgb(94, 135, 135);
 }
